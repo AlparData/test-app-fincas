@@ -15,11 +15,11 @@
                     <notebook>
                         <page string="Productos">
                             <field name="productos_aplicados_ids">
-                                <tree>
+<!--                                 <tree>
                                     <field name="producto_id"/>
                                     <field name="cantidad"/>
                                     <field name="unidad_medida"/>
-                                </tree>
+                                </tree> -->
                             </field>
                         </page>
                     </notebook>
