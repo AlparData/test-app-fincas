@@ -28,7 +28,7 @@ class FincaOrdenTrabajo(models.Model):
         ('finalizado', 'Finalizado')
     ], string='Estado', default='borrador', tracking=True)
     
-    class FincaProductoAplicado(models.Model):
+class FincaProductoAplicado(models.Model):
     _name = 'finca.producto.aplicado'
     _description = 'Productos Aplicados en la Orden'
     
