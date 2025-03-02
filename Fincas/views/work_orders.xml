@@ -13,8 +13,10 @@
                         <field name="state"/>
                     </group>
                     <notebook>
-                        <page string="Equipo y Maquinaria">
+                        <page string="Equipo">
                             <field name="equipo_ids" widget="many2many_tags"/>
+                        </page>
+                        <page string="Maquinaria">
                             <field name="maquinaria_ids" widget="many2many_tags"/>
                         </page>
                         <page string="Implementos y Productos">
