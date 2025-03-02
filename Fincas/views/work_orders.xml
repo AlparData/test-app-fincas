@@ -13,14 +13,13 @@
                         <field name="state"/>
                     </group>
                     <notebook>
-                        <page string="Implementos y Productos">
-                            <field name="implementos_ids" widget="many2many_tags"/>
-                            <field name="productos_aplicados_ids">
-                                <tree editable="bottom">
+                        <page string="Productos">
+                            <field name="productos_aplicados_ids" widget="section_and_note_one2many">
+                                <form editable="bottom">
                                     <field name="producto_id"/>
                                     <field name="cantidad"/>
                                     <field name="unidad_medida"/>
-                                </tree>
+                                </from>
                             </field>
                         </page>
                     </notebook>
