@@ -1,6 +1,6 @@
 {
     "name": "Registro Fincas",
-    "version": "18.0.0.0.0",
+    "version": "18.0.0.0.1",
     "category": "Code",
     "sequence": 14,
     "author": "AlparData SAS",
