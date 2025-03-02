@@ -8,7 +8,9 @@
     "license": "AGPL-3",
     "summary": "",
     "depends": [],
-    "data": [],
+    "data": [
+        'views/work_orders.xml'    
+    ],
     "demo": [],
     "installable": True,
     "auto_install": False,
