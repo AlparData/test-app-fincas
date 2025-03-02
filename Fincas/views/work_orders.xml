@@ -48,11 +48,11 @@
     </record>
     
     <record id="action_finca_orden" model="ir.actions.act_window">
-        <field name="name">Ordenes</field>
+        <field name="name">Órdenes de Trabajo</field>
         <field name="res_model">finca.orden.trabajo</field>
         <field name="view_mode">tree,form</field>
     </record>
     
     <menuitem id="menu_finca_root" name="Finca"/>
-    <menuitem id="menu_finca_orden" name="Órdenes de Trabajo" parent="menu_finca_root"/>
+    <menuitem id="menu_finca_orden" name="Órdenes de Trabajo" parent="menu_finca_root" action="action_finca_orden"/>
 </odoo>
