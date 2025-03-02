@@ -14,6 +14,7 @@
                     </group>
                     <notebook>
                         <page string="Productos">
+                            <field name="productos_aplicados_ids"/>
                         </page>
                     </notebook>
                 </sheet>
