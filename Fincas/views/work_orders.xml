@@ -12,17 +12,6 @@
                         <field name="parcela_id"/>
                         <field name="state"/>
                     </group>
-                    <notebook>
-                        <page string="Productos">
-                            <field name="productos_aplicados_ids" widget="section_and_note_one2many">
-                                <form editable="bottom">
-                                    <field name="producto_id"/>
-                                    <field name="cantidad"/>
-                                    <field name="unidad_medida"/>
-                                </from>
-                            </field>
-                        </page>
-                    </notebook>
                 </sheet>
             </form>
         </field>
