@@ -9,7 +9,7 @@
     "summary": "",
     "depends": [],
     "data": [
-        'security/ir.model.access.csv'
+        'security/ir.model.access.csv',
         'views/work_orders.xml'    
     ],
     "demo": [],
