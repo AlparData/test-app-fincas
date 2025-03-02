@@ -10,7 +10,7 @@
     "depends": [],
     "data": [
         'security/ir.model.access.csv',
-        'views/work_orders.xml'    
+        'views/work_orders.xml' 
     ],
     "demo": [],
     "installable": True,

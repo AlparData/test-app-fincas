@@ -1,2 +1,7 @@
 id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_work_orders,finca.orden.trabajo,model_FincaOrdenTrabajo,base.group_user,1,1,1,1
+access_finca_orden_trabajo_user,finca.orden.trabajo user,model_finca_orden_trabajo,base.group_user,1,0,0,0
+access_finca_orden_trabajo_manager,finca.orden.trabajo manager,model_finca_orden_trabajo,base.group_system,1,1,1,1
+access_finca_parcela_user,finca.parcela user,model_finca_parcela,base.group_user,1,0,0,0
+access_finca_parcela_manager,finca.parcela manager,model_finca_parcela,base.group_system,1,1,1,1
+access_finca_producto_aplicado_user,finca.producto.aplicado user,model_finca_producto_aplicado,base.group_user,1,0,0,0
+access_finca_producto_aplicado_manager,finca.producto.aplicado manager,model_finca_producto_aplicado,base.group_system,1,1,1,1
