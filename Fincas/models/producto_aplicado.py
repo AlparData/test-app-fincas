@@ -5,6 +5,6 @@ class FincaProductoAplicado(models.Model):
     _description = 'Productos Aplicados en la Orden'
     
     orden_id = fields.Many2one('finca.orden.trabajo', string='Orden de Trabajo', required=True, ondelete='cascade')
-    producto_id = fields.Many2one('product.product', string='Producto', required=True)
+    producto_id = fields.Many2one('product.product', string='Producto', required=True)  # Verifica que esta línea esté bien
     cantidad = fields.Float(string='Cantidad', required=True)
     unidad_medida = fields.Many2one('uom.uom', string='Unidad de Medida', required=True)
