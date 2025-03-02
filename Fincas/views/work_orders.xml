@@ -16,9 +16,9 @@
                         <page string="Productos">
                             <field name="productos_aplicados_ids">
                                 <tree editable="bottom">
-                                <field name="producto_id"/>
-                                <field name="cantidad"/>
-                                <field name="unidad_medida"/>
+                                    <field name="producto_id"/>
+                                    <field name="cantidad"/>
+                                    <field name="unidad_medida"/>
                                 </tree>
                             </field>
                         </page>
