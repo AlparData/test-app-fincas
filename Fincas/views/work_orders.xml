@@ -13,9 +13,6 @@
                         <field name="state"/>
                     </group>
                     <notebook>
-                        <page string="Maquinaria">
-                            <field name="maquinaria_ids" widget="many2many_tags"/>
-                        </page>
                         <page string="Implementos y Productos">
                             <field name="implementos_ids" widget="many2many_tags"/>
                             <field name="productos_aplicados_ids">
