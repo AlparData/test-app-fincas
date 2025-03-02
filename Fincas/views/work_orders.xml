@@ -14,13 +14,6 @@
                     </group>
                     <notebook>
                         <page string="Productos">
-                            <field name="productos_aplicados_ids">
-<!--                                 <tree>
-                                    <field name="producto_id"/>
-                                    <field name="cantidad"/>
-                                    <field name="unidad_medida"/>
-                                </tree> -->
-                            </field>
                         </page>
                     </notebook>
                 </sheet>
@@ -28,7 +21,7 @@
         </field>
     </record>
     
-    <record id="view_finca_orden_tree" model="ir.ui.view">
+<!--     <record id="view_finca_orden_tree" model="ir.ui.view">
         <field name="name">finca.orden.trabajo.tree</field>
         <field name="model">finca.orden.trabajo</field>
         <field name="arch" type="xml">
@@ -40,12 +33,12 @@
                 <field name="state"/>
             </tree>
         </field>
-    </record>
+    </record> -->
     
     <record id="action_finca_orden" model="ir.actions.act_window">
         <field name="name">Órdenes de Trabajo</field>
         <field name="res_model">finca.orden.trabajo</field>
-        <field name="view_mode">tree,form</field>
+        <field name="view_mode">form</field>
     </record>
     
     <menuitem id="menu_finca_root" name="Finca"/>
