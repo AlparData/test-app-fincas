@@ -8,7 +8,7 @@ class FincaOrdenTrabajo(models.Model):
     fecha = fields.Date(string='Fecha', required=True, default=fields.Date.context_today)
     responsable_id = fields.Many2one('res.users', string='Responsable', required=True)
     implementos_ids = fields.Many2many('product.product', string='Implementos')
-    productos_aplicados_ids = fields.One2many('finca.producto.aplicado', 'orden_id', string='Productos Aplicados')
+    productos_aplicados_ids = fields.One2many('finca.producto.aplicado', 'orden_id', string='Productos Aplicados')  
     parcela_id = fields.Many2one('finca.parcela', string='Parcela')
     state = fields.Selection([
         ('borrador', 'Borrador'),
